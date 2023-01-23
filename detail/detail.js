@@ -12,6 +12,6 @@ window.addEventListener('load', async () => {
     // use the id to fetch the dog
     const response = await getDog(id);
     dogData = response;
-
+    dogDetailContainer.append(renderDogDetail(dogData));
     // render and append this dog's details to the container
 });
