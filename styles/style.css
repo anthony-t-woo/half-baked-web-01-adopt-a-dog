@@ -119,6 +119,7 @@ p {
     background-color: blanchedalmond;
     cursor: pointer;
     transform: scale(1.1);
+    rotate: 5deg;
 }
 
 .dog-card img {
